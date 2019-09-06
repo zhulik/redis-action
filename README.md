@@ -9,7 +9,7 @@ See [action.yml](action.yml)
 Basic:
 ```yaml
 steps:
-- uses: zhulik/redis-action@v1
+- uses: zhulik/redis-action@v1.0.0
   with:
     redis version: '5'
 ```
