@@ -2,6 +2,8 @@
 
 This [GitHub Action](https://github.com/features/actions) sets up Redis database.
 
+Inspired by https://github.com/Harmon758/postgresql-action, @Harmon758 Thanks!
+
 # Usage
 
 See [action.yml](action.yml)
