@@ -1,0 +1,14 @@
+name: 'Setup Redis'
+description: 'Setup Redis database'
+author: 'Zhulik'
+branding:
+  icon: 'database'
+  color: 'red'
+inputs:
+  redis version:
+    description: 'Version of Redis to use'
+    required: false
+    default: 'latest'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
