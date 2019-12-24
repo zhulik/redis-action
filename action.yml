@@ -9,6 +9,10 @@ inputs:
     description: 'Version of Redis to use'
     required: false
     default: 'latest'
+  number of databases:
+    description: 'Number of Redis databases'
+    required: false
+    default: 16
 runs:
   using: 'docker'
   image: 'Dockerfile'
