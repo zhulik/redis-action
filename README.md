@@ -11,7 +11,7 @@ See [action.yml](action.yml)
 Basic:
 ```yaml
 steps:
-- uses: zhulik/redis-action@v1.1.0
+- uses: zhulik/redis-action@1.1.0
   with:
     redis version: '5'
     number of databases: 100
